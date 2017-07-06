@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mathbook>
+<docinfo>
+    <brandlogo source="images/8.jpg" />
+	<latex-preamble>
+            <package>cancel</package>
+        </latex-preamble>
+	<latex-image-preamble>
+	\usepackage{xcolor}
+	<!--\usepackage{amsmath}
+	\usepackage{wasysym}
+	\usepackage{MnSymbol}
+	\usepackage{amssymb}
+        \usepackage{pgfplots}               % loads tikz package
+        \usepackage{smartdiagram}           % for a circular diagram
+        \pgfplotsset{axis x line = middle,
+                     axis y line = middle}
+        \usetikzlibrary{backgrounds}
+        \usetikzlibrary{arrows,matrix}-->
+        </latex-image-preamble>
+</docinfo>
+
+   <article xml:id="eight">
+    <title>The Story of 8</title>
+    <frontmatter xml:id="index">
+	<!-- type this in Git to compile as html: 
+		xsltproc/xsltproc.exe mathbook/xsl/mathbook-html.xsl mathbook/eight/eight.xml    
+	      For PDF/print, issue:
+		xsltproc/xsltproc.exe mathbook/xsl/mathbook-latex.xsl mathbook/eight/eight.xml--> 
+	<titlepage>
+		<author>
+                    <personname>Mike Hitchman</personname>
+                    <department>Mathematics Department</department>
+                    <institution>
+                        <line>Linfield College</line>
+                        <line>McMinnville, Oregon, USA</line>
+                    </institution>
+                    <email>mhitchm@linfield.edu</email>
+                </author>
+               <date>May 29, 2017</date>
+
+            </titlepage>
+    <image width="10%" source="images/8">
+        <description>Great 8</description>
+    </image>
+	<abstract><p>Over the years, alert students have noticed that <m>8</m> seems to appear in my classes more often than chance would allow.  It may be also that I have alluded to the greatness of <m>8</m> from time to time in these classes.  So I continue to be surprised when these students ask, <q>What's so great about 8?</q>  Isn't it clear?  Alas, so many times has this question been asked that it has become apparent that the story of <m>8</m> needs retelling.<fn>A portion of this story will appear in 
+    <xref ref="biblio-hitch-8" /></fn></p>
+</abstract>
+
+
+</frontmatter>
+
+<section xml:id="section-introduction-to-8">
+	<title>An Introduction to 8</title>
+
+	<p>The goddess of fame has smiled upon some numbers, leaving others to a life of toil and anonymity. Take <m>\pi</m>.  So much has been written about Mr. 3.14159265358... .  Much of its allure, no doubt, comes from the fact that <m>\pi</m> <q>arises naturally.</q>  School kids, some of them not yet eight, are taught that if you divde the circumference of <em>any</em> circle by its diameter you get <m>\pi</m>.  At some point, these same kids are asked to worship the fact that the area enclosed by a circle having radius one foot is <m>\pi</m> square feet, on the nose.  But are these kids taught that if you take two circles, each having radius <m>\frac{2}{\sqrt{\pi}}</m> feet, and you place them one just resting on top of the other so that they form an <m>8</m>, then the total area enclosed by both circles is <m>8</m> square feet on the nose?</p>
+
+<p>Other stars in the number world include <m>e, i,\phi = \frac{1+\sqrt{5}}{2}</m>, and 0.  Zero!  Why not <m>8</m>?  Sure, celebrations of the Golden Ratio <m>\phi</m> are fun.  It's cute to see it pop up in pleasing architecture, art, and seashells, but has anyone pointed out to you that <m>\phi</m>'s building block integers, 1, 5, and 2, sum to <m>8</m>?   Is this a coincidence?  I don't think so.  And isn't 
+<m>8</m> foundational to the product of <m>\pi</m> and <m>e</m>: <m>\lfloor \pi \cdot e\rfloor=8</m>?  And isn't 0 just <m>8</m> without its belt?</p>
+
+<p>One hears whispers of a conspiracy to keep <m>8</m> in the shadows. Consider the base 10
+number system that has been thrust upon us, even though base <m>8</m> has clear advantages. For
+instance, the diabolical number 666 would be written in base <m>8</m> as a harmless and pleasing 1232,
+practically a kid's song waiting to happen. Consider Urbain Le Verrier's discovery of Neptune in
+1845 (using mathematics, not a telescope) which gave us an eighth planet in our solar system. This
+incited a mad dash to find another planet, presumably because <m>8</m> just wouldn't do. Of course,
+this led to the regrettable classification of Pluto as a planet, an error we corrected just a few
+years ago.</p>
+
+<p>But <m>8</m> has its champions.  I recently spoke with Alan Moby, secretary of Gather
+Renown for <m>8</m> (GR8), a new organization that is
+working to promote eight to its rightful place among
+the world's most famous numbers. I asked about the
+GR8 campaign to get eight added to the equation
+<m>e^{\pi i} + 1 = 0</m>.  Moby said, <q>GR8 has worked tirelessly to assemble the key numbers in a way that ensures equality, and we couldn't be more pleased with the result. We now have the world's greatest numbers joined in one superstar equation.  Behold!</q>
+<assemblage><p><me>e^{8\pi i} - 1 = 0.</me></p>
+                </assemblage></p>
+
+<p>Is eight's inclusion in this equation deserved?  What follows is a brief, objective tour of <m>8</m> through the ages.  I invite the reader to weigh the evidence before agreeing that <m>8</m> clearly belongs in this superstar equation.</p>
+
+</section>
+
+
+<section xml:id="section-ancient-8">
+	<title>Ancient 8</title>
+
+<p>At the dawn of civilization, <m>8</m> was a little known integer, nestled between 7 and 9.  It led a quiet life, occasionally making itself useful  to hunters as they checked their digits after run-ins with mastodons and rival clans.  
+The oldest known joke involving <m>8</m> begins with a concussed cave man whose rival Thok stands before him, arms raised.  Thok asks him how many fingers he's holding up. The groggy man furrows his great brow and answers 10, whereupon Thok says, <q>No.  Eight.  These are thumbs!</q> which he wiggles and then pokes into the poor man's eyes.</p>
+
+
+<p>All joking aside, numbers began to be studied in earnest in many ancient civilizations, perhaps nowhere more seriously than in Greece.  
+Around 500 B.C., the Greek philosopher Pythagoras and his disciples vigorously studied the counting numbers (1,2,3,...).  By making careful observations it appeared to them that the workings of the universe could be understood via these numbers.  <!--For instance, pleasant harmonies can be produced by combining strings whose lengths have whole number ratios.  If Pythagoras plucked two strings, one twice as long as the other, they would produce the same note but an octave apart.  If one was just half again as long, plucking them would produce a pleasant pair of tones, called a perfect fifth.  If one wants abysmal dissonance, one need only pluck strings whose lengths are not related so nicely.--> </p>
+
+<p>Perhaps inevitably, the Pythagoreans began to ascribe particular qualities to the counting numbers.  Odd numbers were considered female, the even numbers male.  The number 10 gained special prominence among the Pythagoreans because of the fact (coincidence, let's face it) that 1 + 2 + 3 + 4 = 10. </p> 
+
+<p>But the Pythagoreans are best known for thrusting a different number onto the world stage, and they did so by the tried and true method of trying to suppress it.
+Imagine the scandal that ensued on a particularly fine fall day on the island of Samos about 2500 years ago...</p>
+
+<p>  A pleasant breeze blew in from the Aegean Sea as Pythagoras air-dried after a morning swim.  A young Pythagorean waited respectfully for the master to finish his morning routine before approaching.  As great as Pythagoras was, he welcomed young and old, man and woman, to approach with questions.  He encouraged communal thought and dialogue.   After his swim, of course.   And who could argue with the results? His school had unearthed the basic tools with which one could explain <em>everything</em> in the universe: the counting numbers. </p>
+
+<p>The young philosopher spoke: <q>Good morning, sir.  How was your swim?</q></p>  
+
+<p><q>Invigorating.  I believe I swam for five thirds of one hour.  A fine ratio.</q></p>
+
+<p><q>Indeed, sir.  And I have been waiting to speak to you for four hours.  I believe this makes our meeting auspicious.</q></p>
+
+<p><q>Auspicious?</q></p>
+
+<p><q>Because of your theorem, sir.</q></p>
+
+<p><q>Ah.</q></p>
+
+<p><q>Because <m>3^2 + 4^2 = 5^2</m>, sir.</q></p>
+
+<p><q>Yes.  Well, what is it, young man?</q></p>
+
+<p><q>I just love your triangle theorem, sir.</q></p>
+
+<p><q>It is a theorem for us all.</q></p>
+
+<p><q>Of course, sir.  But it rightfully bears your name.  The Pythagorean Theorem.  That will endure to the end of time.</q></p>
+
+<p><q>As all truths will.  Your question?</q></p>
+
+<p><q>Yes.  I have two sticks here.  Notice they are the same length.  Let me place them on the ground at right angles to each other with their tips touching.  How far apart are their ends?</q></p>
+
+<p><q>But you know the answer, by the theorem about which you spoke.  It will be the number <m>c</m> such that <m>c^2 = 1^2 + 1^2</m>, if we assume the length of each stick is 1 unit.</q></p>
+
+<p><q>Yes, but what value does <m>c</m> assume?  I'm afraid it may not be a ratio of counting numbers.</q></p>
+
+<p>Did Pythagoras laugh heartily at this remark?  Or did a kernel of fear take root in his stomach?  History does not record his initial reaction. One wonders whether he instantly intuited the toppling of a central tenant of his school of thought at the hands of his own theorem.  It is true that the value of <m>c</m>, which today we denote as <m>\sqrt{2}</m>, is not expressible as the ratio of counting numbers, and the Pythagoreans proved it by contradiction, thus giving the world one of the first and most famous uses of this proof technique.
+<!--
+<fn>Their proof marks one of the earliest and most famous uses of proof by contradiction.  Without going into the details, the Pythagoreans' proof begins by assuming that <m>\sqrt{2}</m> <em>is</em> expressible as the ratio of two counting numbers.
+From there, they carefully deduce the conclusion that in a new world roughly 25 centuries in the future, mathematicians would earn more money on average than professional baseball players, an obvious contradiction.  Because this contradiction arose from the initial assumption, this assumption must be abandoned.  That is, <m>\sqrt{2}</m> is not a ratio of counting numbers.</fn>-->
+</p>
+<p>The Pythagoreans also offer the first known effort to suppress a number's greatness.  That a quantity physically constructed could not be represented as a ratio of whole numbers was a devastating result to them, one which may have precipitated the murder of an individual who let slip this fact to the outside world.  But that's a story for another time.  For all these reasons <m>\sqrt{2}</m> appears on most top 10 lists for the all time great numbers.   But is it greater than <m>8</m>?  Not a chance!  <!--Even if you just considered the root of <m>8</m>, it's twice as great as <m>\sqrt{2}</m>.--></p>
+
+<p>The Pythagoreans may not have done much for <m>8</m> directly beyond giving it the dubious distinction of being male, but they did introduce to the world the idea that some numbers are more dangerous than others.  Numbers, up to the time of Pythagoras, were viewed for their quantity.  Now they were encouraged to assert their <em> quality</em>; <m>8</m> could begin in earnest its ascent to a position of dominance in the number line.   It did not take long.</p>
+
+
+</section>
+
+<section xml:id="section-medieval-8">
+<title>Medieval 8</title>
+
+
+<p>Shortly after Pythagoras enjoyed his daily swims, <m>8</m> made a bold and magnificent breakthrough in a great land to the east.  I refer to the Noble Eightfold Path to enlightenment as taught by Gautama Buddha in eastern India.  
+The eightfold path is as profound as it is straightforward:
+(1) Right view; (2) Right intention; (3) Right speech; (4) Right action; 
+(5) Right livelihood; (6) Right effort; (7) Right meditation; (8) Right contemplation.
+Behold! We see a remarkable nod to the self-assured, self-sufficient beauty of the number <m>8</m>, with the added bonus of being a blueprint for leading a life free of suffering.</p>
+<p>It also came to pass in India that thinkers developed the place value number system that we use today.  While the ancient Greeks unearthed true gems of mathematical beauty,  we must remember that they represented numbers geometrically.  The place value number system of India represented an important development in the way we think about and manipulate numbers.  This system found its way to Europe in medieval times, thanks to Islamic mathematicians.  In 1202 A.D., in what is present day Italy, a young man named Leonardo of Pisa published <em>Liber Abaci</em>, a textbook on arithmetic.  Chapter 1 opens with this sentence (see <xref ref="biblio-Mom" />,p.102):
+
+<blockquote>
+These are the nine figures of the Indians: 9  8  7  6  5  4 3  2  1.  With these nine figures, and with the sign 0 which in Arabic is called <em>zephirum</em>, any number can be written, as will below be demonstrated.
+</blockquote>
+</p>
+
+<p>The author, better known to the world today as Fibonacci, went on to demonstrate basic arithmetical operations using these numerals and to include exercises involving rabbits, as all good texts must. The most famous problem in the book asks:
+
+<blockquote>
+How many pairs of rabbits will be produced each month, beginning with a single pair, if every month each productive pair bears a new pair which becomes productive from the second month on?
+</blockquote></p>
+
+<p>This question yielded the Fibonacci sequence 1, 1, 2, 3, 5, 8, 13, 21, 34,... .
+Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separates <m>8</m> from the others is its <em>position</em> in the list.  It is the 6th term, and 8-6 is 2, and 2 is a prime factor of 8.  No other Fibonacci number has this distinction.  That is, if we let <m>F_n</m> denote the <m>n</m>th Fibonacci number and define the set 
+<me>A = \{F_n ~|~ F_n - n \text{ is a prime factor of } F_n\},</me> then <m>A = \{8\}.</m></p>
+
+<p>
+<m>8</m>'s title as the most interesting Fibonacci number was reinforced by the discovery in 1888 of the The Chiquimula Chocolate Bar Scroll, which scholars believe was written in the 13th century.  Translated, it reads:
+
+<blockquote>Let a bar of chocolate be found simultaneously by five strangers, and let the bar consist of 10 squares, in the natural way, arranged in two rows of five.  The strangers agree that each ought to receive 2 squares, and that their 2 squares be of one piece, whole, and unbroken.  In how many ways might they distribute the treasure so as to avoid bloodshed?  
+</blockquote></p>
+
+<p>Today we recognize that this question is equivalent to finding the number of tilings of a <m>2 \times 5</m> grid by dominoes, and that the answer is the 6th Fibonacci number, which is 8 because, in general, the <m>2 \times n</m> grid has <m>F_{n+1}</m> tilings by dominoes.</p>
+
+
+
+<figure xml:id="figure-tiling">
+                <caption>The <m>2 \times 5</m> grid has <m>8</m> tilings by dominoes.</caption>
+                <image width="80%" source="images/2by5">
+                    <description>The figure for the splitting of the chocolate</description>
+                </image>
+            </figure>
+
+</section>
+
+
+
+<section xml:id="section-revolutionary-8">
+<title>Revolutionary 8</title>
+
+<paragraphs>
+<p>We turn our attention now to the scientific revolution, a time in which <m>8</m> distanced itself from countably many of its peers.  While <m>8</m> entered this enlightened time admired by bunny lovers, chocolate aficionados with a penchant for gathering in groups of five to share  magnanimously, and with the backing of one of the world's great religions, it had not joined the ranks of the truly great numbers.  But that was all about to change, in large part due to its collaboration with two giants of the age: Isaac Newton and Leonhard Euler. </p>
+
+
+<p>No one embodies the scientific revolution more than Sir Isaac Newton.  Newton was born on Christmas Day in 1642, two months after his father died.  He survived a premature birth and the plague, no small feat in mid 17th century England.  Indeed, in 1665 Cambridge colleges closed their doors due to an outbreak of plague.  Sent home, where he had no access to the internet, Newton experienced his <em>anni mirabilis</em>, 20 miraculous months of intense creativity during which he formulated the key ideas of all his major discoveries: gravitation, optics, and, central to our story today, the calculus.  </p>
+
+<p>In calculus one investigates change, typically of some process over smaller and smaller intervals.  As such, very small, nebulous positive quantities such as  <m>\Delta x</m> and <m>\Delta y</m> came to steal the spotlight from many larger numbers such as three.  How did <m>8</m> manage in this age of infinitesimals? By standing on the shoulders of many tiny numbers, as we shall see.  </p>
+
+<p>Newton was an astute observer of the natural world, although he occasionally sat beneath over-ripe apples with little regard for his personal safety.  In the spirit of his times, he believed nature could be quantified.  For instance, in his early years he put forth a serious effort to quantify his happiness.  He even developed a unit of measure for happiness: the warmfuzzy.  Newton ran controlled experiments involving bread puddings from which he established a relationship between the rate at which his happiness changed and the number of bread puddings he had consumed.  Although the original notes have not survived to the present day, this very paragraph points to the following result of Newton's observations: <me>H^\prime = 6p(2-p),</me> where <m>H^\prime</m> represents the rate at which his happiness level is changing (in units of warmfuzzies per bread pudding), and <m>p</m> is the number of bread puddings consumed on a given day.   </p>
+
+<p>According to this model, as Newton begins to munch bread pudding, his happiness level will rise due to the positive values of <m>H^{\prime}</m>.  His happiness will be increasing fastest at <m>p = 1</m> (at which point it is increasing at a whopping rate of 6 warmfuzzies per bread pudding!) but his happiness will continue to rise as long as <m>H^\prime</m> is positive, which is the case until <m>p = 2</m>. If he were to keep on eating bread puddings after having two, his happiness level would begin to fall toward what he called grumpiness, since <m>H^{\prime}</m> is negative when <m>p</m> exceeds 2. </p>
+
+<p>So, Newton's brain told him what his gut already knew: He maximizes the happiness gained from bread pudding consumption by eating exactly two of them.  The natural question, of course, and the one that I dare say motivated the development of integral calculus, is this: How much happiness does he actually gain by consuming two bread puddings?  And so integral calculus was invented.</p>
+
+<p>As calculus students today know, the net change in happiness level corresponds to the integral <me> \int_0^2 6p(2-p)~dp </me> which evaluates to <m>8</m> warmfuzzies. </p>
+
+<p>So it came to pass that in the pursuit of happiness Newton found <m>8</m>.
+(As an aside, some etymologists believe the phrase <q>No, thanks.  I just ate</q> has its origin in this saying of Newton's: <q>No more! I'm up eight!</q>  This may explain why eight is one of the few numbers that is also a verb, phonetically.) </p>
+</paragraphs>
+
+<paragraphs>
+<p>Leonhard Euler was a second giant of mathematical thought during the scientific revolution.  A native of Basle, Switzerland, Euler was born in 1707, twenty years before Newton's death.  He spent much of his working life in St. Petersburg and Berlin.  He generated an immense quantity of fundamental, ground breaking work in mathematics. </p>
+<p>Pertinent to our story, Euler is responsible for many common symbols used in mathematics to this day, including the symbols for the numbers <m>\pi</m> and <m>e</m>.  To honor <m>8</m>, which already had the strongest of symbols (as we shall see in <xref ref="section-modern-8" autoname="yes" />), Euler invented a new field of mathematics called graph theory.</p>
+
+
+
+<figure xml:id="figure-bridges">
+                <caption>The seven bridges of K&#xf6;nigsberg.</caption>
+                <image width="35%" source="images/bridges">
+                    <description>The woefully inadequate seven bridges</description>
+                </image>
+            </figure>
+
+
+<p>Graph theory was born from the solution to a puzzle that came to Euler's attention in 1736.  In K&#xf6;nigsberg (now Kaliningrad, Russia) at that time one found a picturesque scene on the Pregel River: seven bridges joining four different land masses, as pictured in <xref ref="figure-bridges" autoname="yes" />.  The puzzle that Euler answered was this:  Can one walk in K&#xf6;nigbserg in such a way as to traverse each bridge exactly once, following these rules:  (1) you can only access the islands by the bridges; and (2) there is no backtracking on bridges (once you begin to walk on a bridge you must cross to the other side).  There was no requirement that you end your walk where you started it.  Such a walk, if it exists, is now called an Eulerian path.</p>
+
+<p>Euler not only solved the puzzle (the answer is <q>no</q>), but also, being a mathematician, provided a method by which one could very quickly tell whether such a walk was possible for any number of bridges and any number of land masses.  Thus, graph theory was born and Euler provided its first theorem.  But why did Euler choose this particular puzzle with which to launch this new field?  Scratching below the surface in a way eerily similar to the work Robert Langdon regularly did in <em>The Da Vinci Code</em>, we find that his choice was motivated by the desire to offer a tribute to the number <m>8</m>.</p>
+
+
+
+<figure xml:id="figure-bridges8">
+                <caption>If we had an eighth bridge of K&#xf6;nigsberg.</caption>
+                <image width="35%" source="images/bridges8">
+                    <description>The harmonious eight bridges</description>
+                </image>
+            </figure>
+
+<p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m>, that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" autoname="yes" />.  Check that now a path traversing each bridge exactly once is possible. </p>
+ 
+<p>The power and versatility of <m>8</m> displayed in the Bridges of K&#xf6;nigsberg puzzle has been captured in song that can still be heard today, ringing in the great halls of Basle during Octoberfest, as long as you are drinking with this author:</p>
+
+
+
+<poem>
+        <stanza>
+            <line>Oh bridges, oh bridges, you puzzle me so</line>
+            <line>I cross one and cross two, which way do I go</line>
+            <line>to traverse each one of them exactly once?</line>
+            <line>I can't seem to do it, don't think me a dunce!</line>
+	</stanza>
+        <stanza>
+            <line>Oh Pregel, Oh Pregel, I dare not go in!</line>
+            <line>My love doth, my love doth, find it a great sin</line>
+            <line>to call on her family in fine clothes sodden</line>
+            <line>but what choice do I have with bridges seven?</line>
+	</stanza>
+        <stanza>
+            <line>Oh Savior, Oh Savior, I think I've a plan</line>
+            <line>if you could please plop down just one other span</line>
+            <line>Plop it down here or there, and you'll hear me cry</line>
+            <line><q>I cross all <m>8</m> bridges while keeping me dry!</q></line>
+	</stanza>
+        <stanza>
+            <line>Oh Bridge <m>8</m>, Oh Bridge <m>8</m>, we drink to you this beer</line>
+            <line>you'd stretch out to give us a solution clear,</line>
+            <line>to the puzzle that inspired graph theory great</line>
+            <line>in an effort to celebrate big number <m>8</m>!</line>
+	</stanza>
+                    </poem>
+
+</paragraphs>
+
+
+</section> 
+
+
+<section xml:id="section-romantic-8">
+<title>Romantic 8</title>
+
+<p>The first half of the 19th century is viewed as the Romantic Age in European music, art, and literature.  Artists turned away from the rationalism of the previous age, and began drawing inspiration from emotional responses to the natural world and the world of ideas, including the concept of infinity.  Edmond Burke once wrote<xref ref="biblio-Burke" />: <q>Infinity has a tendency to fill the mind with that sort of delightful horror, which is the most genuine effect and truest test of the sublime.</q></p>
+
+
+<p>Meanwhile, mathematicians turned their attentions to placing much of the  mathematical achievements of the previous centuries on rigorous footing.  Set theory plays an important role in this foundation, and one of the pioneers of this field was Georg Cantor.  Born in St. Petersburg in 1845, Cantor was a highly original mathematician who studied, among other things, the sizes of sets.  <m>8</m> found a kindred spirit in Cantor.  Together they looked at infinity and, to everyone's delightful horror, they proved that it comes in different sizes. </p>
+
+<p>In general, how do we tell whether two sets are the same size?  Perhaps we can count the number of elements in each one and compare the numbers.  But what if we can't count them all? We could try pairing the elements of one set with the elements of the other to see whether any are left over.  
+For instance, I know the set of vowels <m>\{A, E, I, O, U, Y\}</m> and the set of days {Monday, ... , Sunday} are different sizes because I cannot pair their elements exactly.  Here's the transcript of one of my early attempts at a pairing:</p>
+ <p>         <tabular>
+              <col halign="right"/>
+              <col halign="left"/>
+              <!-- -->
+                <row><cell>MPH:</cell><cell> Ok, let's see...  <m>A</m> stand over there with Tuesday.  Thank you! </cell></row>
+                <row><cell></cell><cell> Now, <m>E</m>, next to Thursday, please. <m>I</m>, with Monday... </cell></row>
+                <row><cell><m>O</m>:</cell><cell> Can I be with Saturday?</cell></row>
+                <row><cell>MPH:</cell><cell> Sure, thanks.  Now, how about <m>U</m> with Friday...</cell></row>
+
+                <row><cell><m>Y</m>:</cell><cell> Great!</cell></row>
+
+                <row><cell>MPH:</cell><cell> <m>Y</m>, I was pointing at <m>U</m>.  I want <m>U</m> with Friday.</cell></row>  
+
+                <row><cell><m>Y</m>:</cell><cell>  Right, and now I'm standing next to him.</cell></row>
+
+                <row><cell>MPH:</cell><cell> No, not you, <m>Y</m>.  You, <m>U</m>.</cell></row>
+
+                <row><cell><m>Y</m>:</cell><cell> Ohhhhh!</cell></row>
+
+                <row><cell><m>O</m>:</cell><cell> What?</cell></row>
+
+                <row><cell>Saturday:</cell><cell> <m>O</m> is with me.</cell></row>
+
+                <row><cell>MPH:</cell><cell> Yes, that's what I said.</cell></row>
+
+                <row><cell><m>I</m>:</cell><cell> I didn't say anything.</cell></row>
+
+                <row><cell><m>Y</m>:</cell><cell> <m>I</m>, must you refer to yourself in the third person?</cell></row>
+
+                <row><cell><m>I</m>:</cell><cell> Huh?</cell></row>
+
+                <row><cell>MPH:</cell><cell> Ok, I want <m>U</m> with Friday.  <m>Y</m> stand with Sunday.</cell></row>
+
+                <row><cell>Sunday:</cell><cell>Why not?  I'm a friendly day.  What did I do?</cell></row>
+
+                <row><cell><m>I</m>:</cell><cell> I didn't do anything!</cell></row>
+                
+                <row><cell><m>Y</m>:</cell><cell>There goes <m>I</m> all third person again...</cell></row>
+                
+                <row><cell>MPH:</cell><cell>Quiet, please!  Anyone leftover? Dang! Wednesday.  </cell></row>
+                <row><cell></cell><cell> Okay, let's try this one more time...</cell></row>
+            </tabular></p>
+
+
+<p>No matter how things get paired, one day will be left out.  The set of days is larger than the set of vowels.  I have also learned that it is easier to attempt a pairing by making a chart or table.  The attempt recorded above can be summarized in this way: </p>
+
+
+		<table>
+                   <tabular>
+                       <row halign="center" bottom="minor"><cell right="minor">vowel</cell><cell>A</cell><cell>E</cell><cell>I</cell><cell>O</cell><cell>U</cell><cell>Y</cell></row>
+                       <row><cell halign="center" right="minor">day</cell><cell>Tue</cell><cell>Thu</cell><cell>Mon</cell><cell>Sat</cell><cell>Fri</cell><cell>Sun</cell></row>
+                   </tabular>
+               	</table>
+
+
+
+<p>With this view of comparing sizes, we may turn to  infinite sets.  For instance, we may compare the set of natural numbers <m>\mathbb{N} = \{ 1, 2, 3, \ldots\}</m> with the set of integers  <m>\mathbb{Z} = \{\ldots -3, -2, -1, 0, 1, 2, 3, \ldots\}</m>.
+On one hand, <m>\mathbb{Z}</m> may appear to be much larger because everything that is in <m>\mathbb{N}</m> is also in <m>\mathbb{Z}</m>, and still <m>\mathbb{Z}</m> contains other numbers such as 0 and all the negative integers!  On the other hand, you would be wrong for thinking this.  The sets have the same size, because we can pair the elements of <m>\mathbb{N}</m> precisely with the elements of <m>\mathbb{Z}</m> so that neither set has any elements left over.  The table below suggests how to do this:</p>
+
+<table>
+	<tabular halign="center">
+	   <row bottom="minor"><cell right="minor"><m>\mathbb{N}</m></cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>6</cell><cell>7</cell><cell>...</cell></row>
+                       <row><cell right="minor"><m>\mathbb{Z}</m></cell><cell>0</cell><cell>1</cell><cell>-1</cell><cell>2</cell><cell>-2</cell><cell>3</cell><cell>-3</cell><cell>...</cell></row>
+	</tabular>
+</table>
+
+<p>
+Convinced?  If not, maybe this will help.  We can describe the pairing by this rule.  If the natural number <m>n</m> is even, it gets paired with the integer <m>n/2</m>, and if <m>n</m> is odd it gets paired with the integer <m>(1-n)/2</m>.  Using these rules one can check that each element of <m>\mathbb{N}</m> gets paired with one element of <m>\mathbb{Z}</m> <em>and</em> each element of <m>\mathbb{Z}</m> gets paired with one element of <m>\mathbb{N}</m>.  So <m>\mathbb{N}</m> and <m>\mathbb{Z}</m> are the same size.  Intuition that we have developed about the sizes of finite sets just doesn't apply to infinite sets.</p>
+
+<p>
+Here's an even more astonishing example.  A little known French mathematician named Michel Vivelatrois, a product of this author's artistic license, built an infinite two-dimensional array of 3s as suggested below. </p>
+
+<table>
+<tabular halign="center">
+<row bottom="medium"><cell right="medium"></cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>...</cell></row>
+<row><cell right="medium">1</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>...</cell></row>
+<row><cell right="medium">2</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>...</cell></row>
+<row><cell right="medium">3</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>...</cell></row>
+<row><cell right="medium"><m>\vdots</m></cell><cell><m>\vdots</m></cell><cell><m>\vdots</m></cell><cell><m>\vdots</m></cell><cell><m>\vdots</m></cell></row>
+</tabular>
+</table>
+
+<p>The array has one row for each natural number and one column for each natural number, and every entry in the array is 3.  (If I may be frank, Vivelatrois exhibited an unhealthy number obsession, one that remains unmatched to this day.)  To his dismay, Vivelatrois discovered that the total number of 3s in this array is no larger than the set <m>\mathbb{N}</m>.  
+Can you find a way to pair up each 3 in this array with its own natural number?   There is a way! </p>
+
+<p>In light of such examples, numbers began gathering in coffee houses around central Europe to listen to Chopin Mazurkas and to try assembling themselves into sets larger than <m>\mathbb{N}</m>.  Alas, they all suffered the fate of Vivelatrois' array of 3s. </p> 
+
+<p>Enter Cantor and <m>8</m>.  Suppose we build a sequence consisting of just <m>8</m>s and <m>G</m>s, such as this one:</p>
+
+<me>8, 8, G, 8, G, G, 8, \ldots</me>
+
+<p>There is no rhyme or reason to this sequence.  We just require that each term is an <m>8</m> or a <m>G</m>, and that the sequence does not terminate.  Two such <q>Great <m>8</m></q> sequences are different as long as they disagree in at least one spot.  Now, let <m>\mathbb{S}</m> denote the set of all possible Great <m>8</m> sequences.  Cantor proved that the set <m>\mathbb{S}</m> is larger than <m>\mathbb{N}</m> using a technique that is now called Cantor's diagonalization argument.  Here's how it works.</p> 
+
+<p>Assume initially that <m>\mathbb{S}</m> and <m>\mathbb{N}</m> have the same size. This means the elements of the two sets can be precisely paired with one another.  Suppose such a pairing is given in the form of a table, as suggested below (ignore the highlighted values for now).</p>
+
+<table>
+<tabular>
+<row bottom="minor"><cell right="minor"><m>\mathbb{N}</m></cell><cell><m>\mathbb{S}</m></cell></row>
+<row><cell right="minor">1</cell><cell><c>8</c>, 8, 8, 8, 8, <m>\ldots</m></cell></row>
+<row><cell right="minor">2</cell><cell>8, <c>8</c>, G, 8, G,<m>\ldots</m></cell></row>
+<row><cell right="minor">3</cell><cell>G, 8, <c>G</c>, 8, G,<m>\ldots</m></cell></row>
+<row><cell right="minor">4</cell><cell>8, 8, G, <c>G</c>, G, <m>\ldots</m></cell></row>
+<row><cell right="minor">5</cell><cell>8, G, G, G, <c>8</c>, <m>\ldots</m></cell></row>
+<row><cell right="minor"><m>\vdots</m></cell><cell><m>\vdots</m></cell></row>
+</tabular>
+</table>
+
+<p>Cantor argued that this couldn't possibly be a complete pairing of the two sets by demonstrating that there must be some element in <m>\mathbb{S}</m> that is not in this list.  The missing sequence, let's call it <m>x</m>, is constructed by first considering the <q>diagonal</q> entries in this listing, as boxed.  These diagonal entries themselves determine a Great <m>8</m> sequence (which begins <m>8</m>, <m>8</m>, G, G, <m>8, \ldots</m>).  </p>
+
+<p>We then form the missing sequence <m>x</m> by assigning at each position the opposite value to the one at the corresponding position of the diagonal sequence.  Thus, the sequence <m>x</m> begins G, G, <m>8</m>, <m>8</m>, G, ... .     
+This Great <m>8</m> sequence will be different from every sequence in the list.  In particular, the missing sequence <m>x</m> will be different from the <m>n</m>th sequence in the list because their <m>n</m>th terms will differ.  We are forced to conclude that no pairing of <m>\mathbb{N}</m> and <m>\mathbb{S}</m> is possible. </p> 
+
+<p>What this means, as Cantor realized, is that while both sets are infinite, the set <m>\mathbb{S}</m> is larger.    Thus did <m>8</m> and Cantor introduce us to different sizes of infinity.   Their work led David Hilbert to write in his 1926 paper <em>Uber das Unendliche</em> <xref ref="biblio-hilbert" />,  <q>Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben konnen.</q>  My translation reads: <q>No one shall expel us from the paradise that Cantor and <m>8</m> have created.</q></p>
+
+</section>
+ 
+
+<section xml:id="section-modern-8">
+<title>Modern 8</title>
+
+<p>
+The 19th century also saw the development of topology, a rich field of study for mathematicians to this day.  Topology may be described as the study of those features of an object that remain unchanged when the object is stretched, shrunk, or otherwise continuously changed.  The topological viewpoint has shed new light on the greatness of <m>8</m>, just as it has dealt a blow to the individuality of several numbers.</p>
+
+<p>A central question in topology is whether two given objects are <em>topologically equivalent.</em>  That is, can one object be continuously changed until it looks like the other?  For instance, 6 is topologically equivalent 9: 6 can be <q>morphed</q> to look just like 9 (just stand 6 on its head). It is also true that one, two, three, five and seven have topologically equivalent symbols, an obvious morale crusher to these numbers in desperate need of some sort of personal identity.  In fact, each of these numbers is topologically equivalent to a straight line segment.  Go ahead and check: with a piece of string you can form each of these numbers without changing the nearness relationship among the points of the string (e.g., you don't tie the ends of the string together, or cross it over itself, or cut it into pieces).</p> 
+
+
+<p>An important topological property is connectedness:  Is an object in one piece?  No matter how you morph an object in a continuous fashion (no ripping or tearing!) a space that is connected will stay connected.  In topology, connected spaces are of primary importance.  Sadly, most integers have disconnected symbols, a significant strike against them. For instance, -33  has a cumbersome 3 connected components.   Of the integers, only 0 through 9 are connected.  </p>
+
+<p>But not all connected spaces are alike, and we can investigate this by considering cut points.  A <em>cut point</em> in a connected space is a point whose removal would make the remaining space disconnected; and a measure of an object's <em>resolve</em> is how many points (other than endpoints) one can remove without disconnecting the remaining space.  </p>
+
+<p>If you remove <em>any</em> such point from l, 2, 3, 5, or 7, you end up disconnecting the digit, as suggested in <xref ref="figure-numbersnip" autoname="yes" />.  With 0, 4, 6, and 9 one can find a point to snip that does not disconnect the space, but two snips will always disconnect these digits. Of the connected integers, <m>8</m> alone can survive two snips.  Yes, <m>8</m> is the most resolute of the integers, topologically.</p>
+
+<figure xml:id="figure-numbersnip">
+                <caption><m>8</m>'s connectivity can survive two snips!</caption>
+                <image width="50%" source="images/numbersnip">
+                    <description>topological numbers theory</description>
+                </image>
+</figure>
+
+
+<p>Now let's bump this topology discussion up a dimension.   A <em>surface</em> is a space with the feature that every point in the space has a neighborhood around it that looks like a little circular patch of a sheet of paper, or a bicycle tube patch.  A few surfaces are pictured in <xref ref="figure-surfaces" autoname="yes" />: a sphere, a sphere with a handle (hoppity-hop!), a donut (bike tube!), and what we could call a four-holed donut (yummy!).</p>
+
+<figure xml:id="figure-surfaces">
+                <caption>Some surfaces.</caption>
+                <image width="80%" source="images/surfaces">
+                    <description>surfaces</description>
+                </image>
+</figure>
+
+
+
+<p>In the 1860s mathematicians managed to completely classify the compact and connected surfaces. There are infinitely many different ones, but we have a complete list of them.  If you ran into a surface in a dark alley, it would be topologically equivalent to one of the surfaces on this well-known list.  In fact, the (infinite) family of orientable surfaces may be described as follows:  Each orientable surface is topolocially equivelent to a sphere with some number of handles attached to it. For instance, the donut is topologically the same as a sphere with one handle (which looks like the hoppity-hop in <xref ref="figure-surfaces" autoname="yes" />) because one can be gradually morphed to look like the other.  The four-holed donut is essentially a sphere with four handles.</p>
+
+<p>How are surfaces germane to the story of <m>8</m>?  It turns out each surface can be given exactly one of three types of geometric structures in which measurements are the same at every point in the space.  The three possibilities for geometry are Euclidean, elliptic and hyperbolic.
+We won't dive into the details here, though they are dear to this author's heart (and are explored in detail in <xref ref="biblio-hitch" />).  Rather, let us be content with stating this remarkable fact: <em>except for the sphere and the donut, all of the orientable surfaces adhere to hyperbolic geometry.</em>  </p>
+  
+<p>This tells us that when you run into that surface in the dark alley, the probability is 1 that it adheres to hyperbolic geometry.  So, if you are a two-dimensional bug named Bormit, and you assume your universe adheres to hyperbolic geometry, and you also believe in an Occam's Razor sort of way that it must be the simplest of all worlds, which world would it be?    Interpreting <q>simplest</q> as <q>fewest number of handles</q>, Bormit's world would be the sphere with two handles. The author has taken the liberty of providing a spare rendition of this most magnificent of surfaces in <xref ref="figure-2holedtorus" autoname="yes" />.  Does it look like an homage to any particular number?</p>
+
+<figure xml:id="figure-2holedtorus">
+                <caption>The best of all possible worlds for Bormit the 2-D bug.</caption>
+                <image width="18%" source="images/2holedtorus">
+                    <description>mmm... two holed donuts</description>
+                </image>
+</figure>
+
+
+<p>Of course our universe is not two-dimensional, but appears to us as three-dimensional.  Fine, on to three dimensions.  If we assume our universe has a nice geometric structure attached to it, it would adhere to one of the three geometries we've mentioned. Moreover, Einstein's theory of general relativity ties the geometry of the universe to how much mass and energy is in it.</p>
+
+<p>A little notation might be helpful.  It turns out that from
+Einstein's field equations, the mass-energy density of the
+universe, <m>\rho</m>, is related to its curvature <m>k</m> by the following
+equation, called the Friedmann Equation,
+<me>
+H^2 = 8G\frac{\pi}{3}\rho - \frac{k}{a^2}.
+</me>
+Here, <m>H</m> is the Hubble
+constant measuring the expansion rate of
+the universe; <m>k =
+-1,0,</m> or <m>1</m> is the curvature constant (<m>k = -1</m> corresponds to hyperbolic geometry, <m>k=0</m> to Euclidean, and <m>k = +1</m> to elliptic);  <m>G</m> is Newton's gravitational constant; <m>a</m> is a scale factor; and <m>\pi/3</m> is just a constant (and practically 1).
+Notice, please, the central role that <m>8</m> plays in this fundamental description of the universe on a global scale.</p>
+
+<!-- <p>Now is probably as good a time as any to tell you that the fate of
+the universe is tied to its mass-energy content, which is tied to the geometry of the
+universe, which is tied to the shape of the universe, which is tied to <m>8</m>.</p>-->
+
+
+</section>
+
+
+
+<section xml:id="section-ubiquitous-8">
+<title>Ubiquitous 8</title>
+
+<p>In my courses <m>8</m> clearly appears more often than chance would allow, though this phenomenon is not confined to the
+classroom.  The other day my son, who is <m>8</m> more or less, was flossing his teeth, and I said, <q>You know, son, the eighth tooth in each quadrant of an adult's mouth is called a <em>wisdom</em> tooth.  <m>8</m> is very wise.</q> He looked at me with what can only be described as a mixture of love and awe. <q>Gee, thanks, Dad,</q> he replied.  After a thoughtful pause he asked,  <q>Dad? What is the smallest integer of the form <m>a^b</m> where <m>a</m> and <m>b</m> are distinct primes?</q>  I tousled his hair paternally as I replied, <q>Take a wild guess.</q><fn>As an addendum to this story, it turns out what he had actually asked was, <q>Dad? I'm 11.  Can I have some privacy?</q>  We had a good chuckle over that mixup later.</fn></p>
+
+<p>Once you notice <m>8</m>, it is everywhere.  My son has discovered this phenomenon, and he recently captured one profound <q><m>8</m> moment</q> in graphic art form, reproduced here with his permission.</p>  
+
+<figure xml:id="figure-comic">
+                <caption>When all other lights go out, <m>8</m> can guide you.</caption>
+                <image width="100%" source="images/comic">
+                    <description>A Jasper variation of a Calvin and Hobbes comic</description>
+                </image>
+            </figure>
+
+<p>We close with some number of fun facts about <m>8</m>.</p>
+
+<ol>
+    <li>Do you follow the sport of number tipping?  In the summer of 1969, in a much-hyped but very short match, <m>8</m> wrested the world championship away from <m>e</m>, a title that <m>8</m> holds to this day.  The official record (reproduced below) makes it clear: as the combatants were tipped, <m>e</m> began to take on the aspect of a tired flower while <m>8</m> approached the infinite.  It was a blowout.
+
+
+            <figure xml:id="figure-numbertip">
+                <caption><m>8</m>: Your number tipping champion since 1969.</caption>
+                <image width="40%" source="images/numbertip">
+                    <description><m>8</m>Number tipping champion since 1969.</description>
+                </image>
+            </figure>
+
+    </li>
+    <li>The heart of mathematics, namely the polar curve <m>r = 1 - \sin(\theta)</m>, has arclength equal to <m>8</m> units.</li>
+    <li>Did you know that <m>8</m> accounts for 10 percent of the digits in the decimal expansion of <em>both</em> <m>\pi</m> and <m>e</m>?</li>
+    <li>Blaise Pascal and Pierre de Fermat, fathers of probability theory, had a view of democracy ahead of their time.  On one fictitious occasion they asked 50 citizens of Clemont-Ferrand to name their favorite number on a 6-sided die.  Fifteen of them replied '4', and the remaining 35 were split evenly among the remaining five options.  They had two weighted dice cast to match the vote: on each die, the probability of rolling a 4 was 15/50, the probability of rolling each of the other numbers was 7/50.  The eager reader can check that with these dice, the most likely sum when rolling them both is <m>8</m>.  The people have spoken!</li>
+    <li>Consider a seven-segment display for numbers (as on a scoreboard).    Which of the digits 0 through 9 requires the use of all seven bulbs, thereby proving it to be the brightest and most powerful of the connected digits?  You may check for yourself:
+            <figure xml:id="figure-scoreboard">
+                <caption><m>8</m>: The brightest of scoreboard digits.</caption>
+                <image width="75%" source="images/numdisplay">
+                    <description>scoreboard</description>
+                </image>
+            </figure>
+    </li> 
+    <li>Terry Pratchett, knighted in 2009 by Queen Elizabeth II for his service to literature and <m>8</m>, famously explores the power of <m>8</m> in his Discworld series, where the eighth son of the eighth son of an eighth son is a sourcerer.</li>
+    <li>Brook Taylor loved his polynomials, and his tennis.  As this story goes, Taylor  preferred a springy tennis ball, one that bounced to 60 percent of its previous height on any given bounce.  One other fact about Taylor (which he liked to trot out at social gatherings) was that the palm of his right hand, when his arms rested normally at his sides, was precisely 2 feet above the ground.  In Taylor's own words: <q>Notice that, though a lampshade be upon my head, if I release my lucky tennis ball from my right hand which lay relaxed by my side, I can be assured that the total vertical distance travelled by said ball before it stops bouncing will be precisely <m>8</m> feet.</q></li>
+    <li>As a student this author wore <m>8</m> on his soccer jersey for Swarthmore College.</li>
+</ol>
+
+
+</section>
+<section xml:id="section-conclusion">
+<title>Concluding Remarks</title>
+
+<p>Through the ages <m>8</m> has inspired minds to achieve great mathematical discoveries.  We have seen many shrines devoted to <m>8</m>, across time and continents. <m>8</m> is present in our anatomy (thumbs aren't fingers!), and in our animal husbandry.  It shines in the very small, such as in seashells, as well as the very large, such as the shape of the universe.  It manifests itself in chocolate bars, nutritional calculus, and strolls along river banks.  It reaches to the stars, and sends us to infinity and beyond.  It is great <m>8</m>. </p>
+
+<p>I invite you, dear reader, to share instances of <m>8</m>, whether great or small, with this author.  Spread the word!</p>
+
+<p>Cheers,</p>
+
+<p>Mike Hitchman (hey! <m>8</m> letters!)</p>
+
+
+
+</section>
+
+<backmatter>
+<references>
+                <title>References</title>
+		<biblio type="raw" xml:id="biblio-pi">Petr Beckmann, <title>A History of Pi</title>. <publisher>The Golem Press</publisher>, New York, 1971.
+                </biblio>
+        <biblio type="raw" xml:id="biblio-Burke">Edmund Burke, <title>A Philosophical Inquiry into the Origin of Our Ideas of the Sublime and Beautiful</title>. 1757.
+                <note xml:id="note-Burke"><p>See Section VIII Part II</p></note>
+                </biblio>
+		<biblio type="raw" xml:id="biblio-hilbert">David Hilbert, <title>Uber das Unendliche</title>, <journal>Mathematische Annalen</journal>, 1926, <volume>95</volume> 161<ndash />90.</biblio>
+        <biblio type="raw" xml:id="biblio-hitch">Mike Hitchman, <title>Geometry with an Introduction to Cosmic Topology</title>. <publisher>Jones and Bartlett</publisher>, Boston, 2009.
+        <note xml:id="note-geometry"><p>Soon to be available as an open-source text</p></note>
+        </biblio>
+        <biblio type="raw" xml:id="biblio-hitch-8">Mike Hitchman, <title>The Story of <m>8</m></title>, <journal>Math Horizons</journal>, to appear</biblio>
+		<biblio type="raw" xml:id="biblio-Mom">Stuart Hollingdale, <title>Makers of Mathematics</title>. <publisher>Penguin Books</publisher>, London, 1989.
+                </biblio>
+		<biblio type="raw" xml:id="biblio-phi">Mario Livio, <title>The golden ratio: The story of phi, the world's most astonishing number</title>.<publisher>Broadway Books</publisher>, 2008.
+                </biblio>
+		<!--<biblio type="raw" xml:id="biblio-e">Eli Maor and Jerry P. King, <title><m>e</m>: The Story of a Number</title>. <publisher>Princeton University Press</publisher>, 1994.
+                </biblio>-->
+		<!--<biblio type="raw" xml:id="biblio-i">Paul J. Nahin, <title>An Imaginary Tale: The Story of <m>\sqrt{-1}</m></title>. <publisher>Princeton University Press</publisher>, 1998.
+                </biblio>-->
+		<biblio type="raw" xml:id="biblio-0">Charles Seife, <title>Zero: The Biography of a Dangerous Idea</title>. <publisher>Penguin Books</publisher>, 2000.
+                </biblio>
+</references>
+</backmatter>
+
+</article>
+
+</mathbook>
