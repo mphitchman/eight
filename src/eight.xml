@@ -19,14 +19,9 @@
         \usetikzlibrary{arrows,matrix}-->
         </latex-image-preamble>
 </docinfo>
-
-   <article xml:id="eight">
+   <article xml:id="index">
     <title>The Story of 8</title>
-    <frontmatter xml:id="index">
-	<!-- type this in Git to compile as html: 
-		xsltproc/xsltproc.exe mathbook/xsl/mathbook-html.xsl mathbook/eight/eight.xml    
-	      For PDF/print, issue:
-		xsltproc/xsltproc.exe mathbook/xsl/mathbook-latex.xsl mathbook/eight/eight.xml--> 
+    <frontmatter xml:id="frontmatter"><title>Abstract</title>
 	<titlepage>
 		<author>
                     <personname>Mike Hitchman</personname>
@@ -43,8 +38,8 @@
     <image width="10%" source="images/8">
         <description>Great 8</description>
     </image>
-	<abstract><p>Over the years, alert students have noticed that <m>8</m> seems to appear in my classes more often than chance would allow.  It may be also that I have alluded to the greatness of <m>8</m> from time to time in these classes.  So I continue to be surprised when these students ask, <q>What's so great about 8?</q>  Isn't it clear?  Alas, so many times has this question been asked that it has become apparent that the story of <m>8</m> needs retelling.<fn>A portion of this story will appear in 
-    <xref ref="biblio-hitch-8" /></fn></p>
+	<abstract><p>Over the years, alert students have noticed that <m>8</m> seems to appear in my classes more often than chance would allow.  It may be also that I have alluded to the greatness of <m>8</m> from time to time in these classes.  So I continue to be surprised when these students ask, <q>What's so great about 8?</q>  Isn't it clear?  Alas, so many times has this question been asked that it has become apparent that the story of <m>8</m> needs retelling.</p>
+    <p> A portion of this story is appearing soon in <xref ref="biblio-hitch-8" />, and a printable version of the full <em>Story of <m>8</m></em> can be found here: <url href="http://mphitchman.com/eight/eight.pdf">http://mphitchman.com/eight/eight.pdf</url></p>
 </abstract>
 
 
@@ -96,7 +91,7 @@ Around 500 B.C., the Greek philosopher Pythagoras and his disciples vigorously s
 <p>But the Pythagoreans are best known for thrusting a different number onto the world stage, and they did so by the tried and true method of trying to suppress it.
 Imagine the scandal that ensued on a particularly fine fall day on the island of Samos about 2500 years ago...</p>
 
-<p>  A pleasant breeze blew in from the Aegean Sea as Pythagoras air-dried after a morning swim.  A young Pythagorean waited respectfully for the master to finish his morning routine before approaching.  As great as Pythagoras was, he welcomed young and old, man and woman, to approach with questions.  He encouraged communal thought and dialogue.   After his swim, of course.   And who could argue with the results? His school had unearthed the basic tools with which one could explain <em>everything</em> in the universe: the counting numbers. </p>
+<p>  A pleasant breeze blew in from the Aegean Sea as Pythagoras air-dried after a morning swim.  A young Pythagorean waited respectfully for the master to finish his morning routine before approaching.  As great as Pythagoras was, he welcomed young and old, man and woman, to approach with questions.  He encouraged communal thought and dialogue.   After his swim, of course.   And who could argue with the results? His school had established the basic tools with which one could explain <em>everything</em> in the universe: the counting numbers. </p>
 
 <p>The young philosopher spoke: <q>Good morning, sir.  How was your swim?</q></p>  
 
@@ -240,9 +235,6 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 <p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m>, that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" autoname="yes" />.  Check that now a path traversing each bridge exactly once is possible. </p>
  
 <p>The power and versatility of <m>8</m> displayed in the Bridges of K&#xf6;nigsberg puzzle has been captured in song that can still be heard today, ringing in the great halls of Basle during Octoberfest, as long as you are drinking with this author:</p>
-
-
-
 <poem>
         <stanza>
             <line>Oh bridges, oh bridges, you puzzle me so</line>
@@ -285,7 +277,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 <p>Meanwhile, mathematicians turned their attentions to placing much of the  mathematical achievements of the previous centuries on rigorous footing.  Set theory plays an important role in this foundation, and one of the pioneers of this field was Georg Cantor.  Born in St. Petersburg in 1845, Cantor was a highly original mathematician who studied, among other things, the sizes of sets.  <m>8</m> found a kindred spirit in Cantor.  Together they looked at infinity and, to everyone's delightful horror, they proved that it comes in different sizes. </p>
 
 <p>In general, how do we tell whether two sets are the same size?  Perhaps we can count the number of elements in each one and compare the numbers.  But what if we can't count them all? We could try pairing the elements of one set with the elements of the other to see whether any are left over.  
-For instance, I know the set of vowels <m>\{A, E, I, O, U, Y\}</m> and the set of days {Monday, ... , Sunday} are different sizes because I cannot pair their elements exactly.  Here's the transcript of one of my early attempts at a pairing:</p>
+For instance, I know the set of vowels <m>\{A, E, I, O, U, Y\}</m> and the set of days <m>\{</m> Monday, ... , Sunday<m>\}</m> are different sizes because I cannot pair their elements exactly.  Here's the transcript of one of my early attempts at a pairing:</p>
  <p>         <tabular>
               <col halign="right"/>
               <col halign="left"/>
@@ -343,7 +335,7 @@ For instance, I know the set of vowels <m>\{A, E, I, O, U, Y\}</m> and the set o
 
 
 <p>With this view of comparing sizes, we may turn to  infinite sets.  For instance, we may compare the set of natural numbers <m>\mathbb{N} = \{ 1, 2, 3, \ldots\}</m> with the set of integers  <m>\mathbb{Z} = \{\ldots -3, -2, -1, 0, 1, 2, 3, \ldots\}</m>.
-On one hand, <m>\mathbb{Z}</m> may appear to be much larger because everything that is in <m>\mathbb{N}</m> is also in <m>\mathbb{Z}</m>, and still <m>\mathbb{Z}</m> contains other numbers such as 0 and all the negative integers!  On the other hand, you would be wrong for thinking this.  The sets have the same size, because we can pair the elements of <m>\mathbb{N}</m> precisely with the elements of <m>\mathbb{Z}</m> so that neither set has any elements left over.  The table below suggests how to do this:</p>
+Now, <m>\mathbb{Z}</m> may appear to be much larger because everything that is in <m>\mathbb{N}</m> is also in <m>\mathbb{Z}</m>, and still <m>\mathbb{Z}</m> contains other numbers such as 0 and all the negative integers!  In fact, the sets have the same size because we can pair the elements of <m>\mathbb{N}</m> precisely with the elements of <m>\mathbb{Z}</m> so that neither set has any elements left over.  The table below suggests how to do this:</p>
 
 <table>
 	<tabular halign="center">
@@ -353,7 +345,7 @@ On one hand, <m>\mathbb{Z}</m> may appear to be much larger because everything t
 </table>
 
 <p>
-Convinced?  If not, maybe this will help.  We can describe the pairing by this rule.  If the natural number <m>n</m> is even, it gets paired with the integer <m>n/2</m>, and if <m>n</m> is odd it gets paired with the integer <m>(1-n)/2</m>.  Using these rules one can check that each element of <m>\mathbb{N}</m> gets paired with one element of <m>\mathbb{Z}</m> <em>and</em> each element of <m>\mathbb{Z}</m> gets paired with one element of <m>\mathbb{N}</m>.  So <m>\mathbb{N}</m> and <m>\mathbb{Z}</m> are the same size.  Intuition that we have developed about the sizes of finite sets just doesn't apply to infinite sets.</p>
+Convinced?  If not, maybe this will help.  We can describe the pairing by this rule:  If the natural number <m>n</m> is even, it gets paired with the integer <m>n/2</m>, and if <m>n</m> is odd it gets paired with the integer <m>(1-n)/2</m>.  Using these rules one can check that each element of <m>\mathbb{N}</m> gets paired with one element of <m>\mathbb{Z}</m> <em>and</em> each element of <m>\mathbb{Z}</m> gets paired with one element of <m>\mathbb{N}</m>.  So <m>\mathbb{N}</m> and <m>\mathbb{Z}</m> are the same size.  Intuition that we have developed about the sizes of finite sets just doesn't apply to infinite sets.</p>
 
 <p>
 Here's an even more astonishing example.  A little known French mathematician named Michel Vivelatrois, a product of this author's artistic license, built an infinite two-dimensional array of 3s as suggested below. </p>
@@ -393,10 +385,10 @@ Can you find a way to pair up each 3 in this array with its own natural number? 
 </tabular>
 </table>
 
-<p>Cantor argued that this couldn't possibly be a complete pairing of the two sets by demonstrating that there must be some element in <m>\mathbb{S}</m> that is not in this list.  The missing sequence, let's call it <m>x</m>, is constructed by first considering the <q>diagonal</q> entries in this listing, as boxed.  These diagonal entries themselves determine a Great <m>8</m> sequence (which begins <m>8</m>, <m>8</m>, G, G, <m>8, \ldots</m>).  </p>
+<p>Cantor argued that this couldn't possibly be a complete pairing of the two sets by demonstrating that there must be some element in <m>\mathbb{S}</m> that is not in this list.  We construct a Great <m>8</m> sequence, let's call it <m>x</m>, by first considering the <q>diagonal</q> entries in this listing, as highlighted.  These diagonal entries themselves determine a Great <m>8</m> sequence (which begins <m>8</m>, <m>8</m>, G, G, <m>8, \ldots</m>).  </p>
 
 <p>We then form the missing sequence <m>x</m> by assigning at each position the opposite value to the one at the corresponding position of the diagonal sequence.  Thus, the sequence <m>x</m> begins G, G, <m>8</m>, <m>8</m>, G, ... .     
-This Great <m>8</m> sequence will be different from every sequence in the list.  In particular, the missing sequence <m>x</m> will be different from the <m>n</m>th sequence in the list because their <m>n</m>th terms will differ.  We are forced to conclude that no pairing of <m>\mathbb{N}</m> and <m>\mathbb{S}</m> is possible. </p> 
+This Great <m>8</m> sequence will be different from every sequence in the list.  Indeed, <m>x</m> is different than the first sequence in the list because their first entries will be different, and <m>x</m> is different from the second sequence in the list because their second entries differ.  In particular, <m>x</m> will differ from the <m>n</m>th sequence in the list because their <m>n</m>th terms will differ.  We are forced to conclude that no pairing of <m>\mathbb{N}</m> and <m>\mathbb{S}</m> is possible. </p> 
 
 <p>What this means, as Cantor realized, is that while both sets are infinite, the set <m>\mathbb{S}</m> is larger.    Thus did <m>8</m> and Cantor introduce us to different sizes of infinity.   Their work led David Hilbert to write in his 1926 paper <em>Uber das Unendliche</em> <xref ref="biblio-hilbert" />,  <q>Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben konnen.</q>  My translation reads: <q>No one shall expel us from the paradise that Cantor and <m>8</m> have created.</q></p>
 
@@ -412,7 +404,7 @@ The 19th century also saw the development of topology, a rich field of study for
 <p>A central question in topology is whether two given objects are <em>topologically equivalent.</em>  That is, can one object be continuously changed until it looks like the other?  For instance, 6 is topologically equivalent 9: 6 can be <q>morphed</q> to look just like 9 (just stand 6 on its head). It is also true that one, two, three, five and seven have topologically equivalent symbols, an obvious morale crusher to these numbers in desperate need of some sort of personal identity.  In fact, each of these numbers is topologically equivalent to a straight line segment.  Go ahead and check: with a piece of string you can form each of these numbers without changing the nearness relationship among the points of the string (e.g., you don't tie the ends of the string together, or cross it over itself, or cut it into pieces).</p> 
 
 
-<p>An important topological property is connectedness:  Is an object in one piece?  No matter how you morph an object in a continuous fashion (no ripping or tearing!) a space that is connected will stay connected.  In topology, connected spaces are of primary importance.  Sadly, most integers have disconnected symbols, a significant strike against them. For instance, -33  has a cumbersome 3 connected components.   Of the integers, only 0 through 9 are connected.  </p>
+<p>Connectedness is an important topological property:  Is an object in one piece?  No matter how you morph an object in a continuous fashion (no ripping or tearing!) a space that is connected will stay connected.  In topology, connected spaces are of primary importance.  Sadly, most integers have disconnected symbols, a significant strike against them. For instance, -33  has a cumbersome 3 connected components.   Of the integers, only 0 through 9 are connected.  </p>
 
 <p>But not all connected spaces are alike, and we can investigate this by considering cut points.  A <em>cut point</em> in a connected space is a point whose removal would make the remaining space disconnected; and a measure of an object's <em>resolve</em> is how many points (other than endpoints) one can remove without disconnecting the remaining space.  </p>
 
@@ -479,7 +471,7 @@ universe, which is tied to the shape of the universe, which is tied to <m>8</m>.
 <section xml:id="section-ubiquitous-8">
 <title>Ubiquitous 8</title>
 
-<p>In my courses <m>8</m> clearly appears more often than chance would allow, though this phenomenon is not confined to the
+<p>So, yes, something deeper and perhaps more profound than randomness dictates the frequency with which <m>8</m> appears in my classes.  But no wonder!  And this pheonomenon is not confined to the
 classroom.  The other day my son, who is <m>8</m> more or less, was flossing his teeth, and I said, <q>You know, son, the eighth tooth in each quadrant of an adult's mouth is called a <em>wisdom</em> tooth.  <m>8</m> is very wise.</q> He looked at me with what can only be described as a mixture of love and awe. <q>Gee, thanks, Dad,</q> he replied.  After a thoughtful pause he asked,  <q>Dad? What is the smallest integer of the form <m>a^b</m> where <m>a</m> and <m>b</m> are distinct primes?</q>  I tousled his hair paternally as I replied, <q>Take a wild guess.</q><fn>As an addendum to this story, it turns out what he had actually asked was, <q>Dad? I'm 11.  Can I have some privacy?</q>  We had a good chuckle over that mixup later.</fn></p>
 
 <p>Once you notice <m>8</m>, it is everywhere.  My son has discovered this phenomenon, and he recently captured one profound <q><m>8</m> moment</q> in graphic art form, reproduced here with his permission.</p>  
@@ -538,19 +530,17 @@ classroom.  The other day my son, who is <m>8</m> more or less, was flossing his
 
 </section>
 
-<backmatter>
-<references>
-                <title>References</title>
+<backmatter><title>References</title>
+<references><title>References</title>
 		<biblio type="raw" xml:id="biblio-pi">Petr Beckmann, <title>A History of Pi</title>. <publisher>The Golem Press</publisher>, New York, 1971.
                 </biblio>
         <biblio type="raw" xml:id="biblio-Burke">Edmund Burke, <title>A Philosophical Inquiry into the Origin of Our Ideas of the Sublime and Beautiful</title>. 1757.
                 <note xml:id="note-Burke"><p>See Section VIII Part II</p></note>
                 </biblio>
 		<biblio type="raw" xml:id="biblio-hilbert">David Hilbert, <title>Uber das Unendliche</title>, <journal>Mathematische Annalen</journal>, 1926, <volume>95</volume> 161<ndash />90.</biblio>
-        <biblio type="raw" xml:id="biblio-hitch">Mike Hitchman, <title>Geometry with an Introduction to Cosmic Topology</title>. <publisher>Jones and Bartlett</publisher>, Boston, 2009.
-        <note xml:id="note-geometry"><p>Soon to be available as an open-source text</p></note>
+        <biblio type="raw" xml:id="biblio-hitch">Michael P. Hitchman, <title>Geometry with an Introduction to Cosmic Topology</title>, a freely available text found at <url href="mphitchman.com">mphitchman.com</url>, (previously published by Jones and Bartlett in 2009)
         </biblio>
-        <biblio type="raw" xml:id="biblio-hitch-8">Mike Hitchman, <title>The Story of <m>8</m></title>, <journal>Math Horizons</journal>, to appear</biblio>
+        <biblio type="raw" xml:id="biblio-hitch-8">Mike Hitchman, <title>The Story of <m>8</m></title>, <journal>Math Horizons</journal>, to appear Fall, 2017</biblio>
 		<biblio type="raw" xml:id="biblio-Mom">Stuart Hollingdale, <title>Makers of Mathematics</title>. <publisher>Penguin Books</publisher>, London, 1989.
                 </biblio>
 		<biblio type="raw" xml:id="biblio-phi">Mario Livio, <title>The golden ratio: The story of phi, the world's most astonishing number</title>.<publisher>Broadway Books</publisher>, 2008.
