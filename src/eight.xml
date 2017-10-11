@@ -146,15 +146,15 @@ The eightfold path is as profound as it is straightforward:
 Behold! We see a remarkable nod to the self-assured, self-sufficient beauty of the number <m>8</m>, with the added bonus of being a blueprint for leading a life free of suffering.</p>
 <p>It also came to pass in India that thinkers developed the place value number system that we use today.  While the ancient Greeks unearthed true gems of mathematical beauty,  we must remember that they represented numbers geometrically.  The place value number system of India represented an important development in the way we think about and manipulate numbers.  This system found its way to Europe in medieval times, thanks to Islamic mathematicians.  In 1202 A.D., in what is present day Italy, a young man named Leonardo of Pisa published <em>Liber Abaci</em>, a textbook on arithmetic.  Chapter 1 opens with this sentence (see <xref ref="biblio-Mom" />,p.102):
 
-<blockquote>
-These are the nine figures of the Indians: 9  8  7  6  5  4 3  2  1.  With these nine figures, and with the sign 0 which in Arabic is called <em>zephirum</em>, any number can be written, as will below be demonstrated.
+<blockquote><p>
+These are the nine figures of the Indians: 9  8  7  6  5  4 3  2  1.  With these nine figures, and with the sign 0 which in Arabic is called <em>zephirum</em>, any number can be written, as will below be demonstrated.</p>
 </blockquote>
 </p>
 
 <p>The author, better known to the world today as Fibonacci, went on to demonstrate basic arithmetical operations using these numerals and to include exercises involving rabbits, as all good texts must. The most famous problem in the book asks:
 
-<blockquote>
-How many pairs of rabbits will be produced each month, beginning with a single pair, if every month each productive pair bears a new pair which becomes productive from the second month on?
+<blockquote><p>
+How many pairs of rabbits will be produced each month, beginning with a single pair, if every month each productive pair bears a new pair which becomes productive from the second month on?</p>
 </blockquote></p>
 
 <p>This question yielded the Fibonacci sequence 1, 1, 2, 3, 5, 8, 13, 21, 34,... .
@@ -162,12 +162,12 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 <me>A = \{F_n ~|~ F_n - n \text{ is a prime factor of } F_n\},</me> then <m>A = \{8\}.</m></p>
 
 <p>
-<m>8</m>'s title as the most interesting Fibonacci number was reinforced by the discovery in 1888 of the The Chiquimula Chocolate Bar Scroll, which scholars believe was written in the 13th century.  Translated, it reads:
+<m>8</m>'s title as the most interesting Fibonacci number was reinforced by the discovery in 1888 of the Chiquimula Chocolate Bar Scroll, which scholars believe was written in the 13th century.  Translated, it reads:
 
-<blockquote>Let a bar of chocolate be found simultaneously by five strangers, and let the bar consist of 10 squares, in the natural way, arranged in two rows of five.  The strangers agree that each ought to receive 2 squares, and that their 2 squares be of one piece, whole, and unbroken.  In how many ways might they distribute the treasure so as to avoid bloodshed?  
+<blockquote><p>Let a bar of chocolate be found simultaneously by five strangers, and let the bar consist of 10 squares, in the natural way, arranged in two rows of five.  The strangers agree that each ought to receive 2 squares, and that their 2 squares be of one piece, whole, and unbroken.  In how many ways might they distribute the treasure so as to avoid bloodshed?</p>  
 </blockquote></p>
 
-<p>Today we recognize that this question is equivalent to finding the number of tilings of a <m>2 \times 5</m> grid by dominoes, and that the answer is the 6th Fibonacci number, which is 8 because, in general, the <m>2 \times n</m> grid has <m>F_{n+1}</m> tilings by dominoes.</p>
+<p>Today we recognize that this question is equivalent to finding the number of tilings of a <m>2 \times 5</m> grid by dominoes, and that the answer is <m>8</m>  because, in general, the <m>2 \times n</m> grid has <m>F_{n+1}</m> tilings by dominoes.</p>
 
 
 
@@ -186,20 +186,20 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 <title>Revolutionary 8</title>
 
 <paragraphs>
-<p>We turn our attention now to the scientific revolution, a time in which <m>8</m> distanced itself from countably many of its peers.  While <m>8</m> entered this enlightened time admired by bunny lovers, chocolate aficionados with a penchant for gathering in groups of five to share  magnanimously, and with the backing of one of the world's great religions, it had not joined the ranks of the truly great numbers.  But that was all about to change, in large part due to its collaboration with two giants of the age: Isaac Newton and Leonhard Euler. </p>
+<p>We turn our attention now to the scientific revolution.  While <m>8</m> entered this enlightened time admired by bunny lovers, chocolate aficionados with a penchant for gathering in groups of five, and with the backing of one of the world's great religions, it had not yet joined the ranks of the truly great numbers.  But that was about to change, in large part due to its collaboration with two giants of the age: Isaac Newton and Leonhard Euler. </p>
 
 
 <p>No one embodies the scientific revolution more than Sir Isaac Newton.  Newton was born on Christmas Day in 1642, two months after his father died.  He survived a premature birth and the plague, no small feat in mid 17th century England.  Indeed, in 1665 Cambridge colleges closed their doors due to an outbreak of plague.  Sent home, where he had no access to the internet, Newton experienced his <em>anni mirabilis</em>, 20 miraculous months of intense creativity during which he formulated the key ideas of all his major discoveries: gravitation, optics, and, central to our story today, the calculus.  </p>
 
 <p>In calculus one investigates change, typically of some process over smaller and smaller intervals.  As such, very small, nebulous positive quantities such as  <m>\Delta x</m> and <m>\Delta y</m> came to steal the spotlight from many larger numbers such as three.  How did <m>8</m> manage in this age of infinitesimals? By standing on the shoulders of many tiny numbers, as we shall see.  </p>
 
-<p>Newton was an astute observer of the natural world, although he occasionally sat beneath over-ripe apples with little regard for his personal safety.  In the spirit of his times, he believed nature could be quantified.  For instance, in his early years he put forth a serious effort to quantify his happiness.  He even developed a unit of measure for happiness: the warmfuzzy.  Newton ran controlled experiments involving bread puddings from which he established a relationship between the rate at which his happiness changed and the number of bread puddings he had consumed.  Although the original notes have not survived to the present day, this very paragraph points to the following result of Newton's observations: <me>H^\prime = 6p(2-p),</me> where <m>H^\prime</m> represents the rate at which his happiness level is changing (in units of warmfuzzies per bread pudding), and <m>p</m> is the number of bread puddings consumed on a given day.   </p>
+<p>Newton was an astute observer of the natural world, although he occasionally sat beneath over-ripe apples with little regard for his personal safety.  For instance, in his youth he put forth a serious effort to quantify his happiness.  He even developed a unit of measure for happiness: the warmfuzzy.  Newton ran controlled experiments involving bread puddings from which he established a relationship between the rate at which his happiness changed and the number of bread puddings he had consumed.  Although the original notes have not survived to the present day, this very paragraph points to the following result of Newton's observations: <me>H^\prime = 6p(2-p),</me> where <m>H^\prime</m> represents the rate at which his happiness level is changing (in units of warmfuzzies per bread pudding), and <m>p</m> is the number of bread puddings consumed on a given day.   </p>
 
-<p>According to this model, as Newton begins to munch bread pudding, his happiness level will rise due to the positive values of <m>H^{\prime}</m>.  His happiness will be increasing fastest at <m>p = 1</m> (at which point it is increasing at a whopping rate of 6 warmfuzzies per bread pudding!) but his happiness will continue to rise as long as <m>H^\prime</m> is positive, which is the case until <m>p = 2</m>. If he were to keep on eating bread puddings after having two, his happiness level would begin to fall toward what he called grumpiness, since <m>H^{\prime}</m> is negative when <m>p</m> exceeds 2. </p>
+<p>As Newton eats his bread pudding his happiness level will rise as long as <m>H^\prime</m> is positive.  According to the model, this will be the case as long as <m>0 \lt p \lt 2</m>.  In fact, his happiness will be increasing fastest when <m>p = 1</m> (at which point it is increasing at a whopping rate of 6 warmfuzzies per bread pudding!), which no doubt makes it difficult not to have a second bread pudding.  His happiness will continue to rise until <m>p = 2</m>, after which <m>H^\prime</m> is negative. If he were to keep on eating bread puddings after having two, his happiness level would begin to fall toward what he called grumpiness.</p>
 
-<p>So, Newton's brain told him what his gut already knew: He maximizes the happiness gained from bread pudding consumption by eating exactly two of them.  The natural question, of course, and the one that I dare say motivated the development of integral calculus, is this: How much happiness does he actually gain by consuming two bread puddings?  And so integral calculus was invented.</p>
+<p>So, Newton's brain told him what his gut already knew: He maximizes the happiness gained from bread pudding consumption by eating exactly two of them.  The natural question, of course, and the one that I dare say motivated the development of integral calculus, is this: How much happiness does he actually gain by consuming two bread puddings?</p>
 
-<p>As calculus students today know, the net change in happiness level corresponds to the integral <me> \int_0^2 6p(2-p)~dp </me> which evaluates to <m>8</m> warmfuzzies. </p>
+<p>As calculus students know today, the net change in happiness level corresponds to the integral <me> \int_0^2 6p(2-p)~dp </me> which evaluates to <m>8</m> warmfuzzies. </p>
 
 <p>So it came to pass that in the pursuit of happiness Newton found <m>8</m>.
 (As an aside, some etymologists believe the phrase <q>No, thanks.  I just ate</q> has its origin in this saying of Newton's: <q>No more! I'm up eight!</q>  This may explain why eight is one of the few numbers that is also a verb, phonetically.) </p>
@@ -219,7 +219,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
             </figure>
 
 
-<p>Graph theory was born from the solution to a puzzle that came to Euler's attention in 1736.  In K&#xf6;nigsberg (now Kaliningrad, Russia) at that time one found a picturesque scene on the Pregel River: seven bridges joining four different land masses, as pictured in <xref ref="figure-bridges" autoname="yes" />.  The puzzle that Euler answered was this:  Can one walk in K&#xf6;nigbserg in such a way as to traverse each bridge exactly once, following these rules:  (1) you can only access the islands by the bridges; and (2) there is no backtracking on bridges (once you begin to walk on a bridge you must cross to the other side).  There was no requirement that you end your walk where you started it.  Such a walk, if it exists, is now called an Eulerian path.</p>
+<p>Graph theory was born from the solution to a puzzle that came to Euler's attention in 1736.  In K&#xf6;nigsberg (now Kaliningrad, Russia) one found a picturesque scene on the Pregel River: seven bridges joining four different land masses, as pictured in <xref ref="figure-bridges" autoname="yes" />.  The puzzle that Euler answered was this:  Can one walk in K&#xf6;nigbserg in such a way as to traverse each bridge exactly once, following these rules:  (1) you can only access the islands by the bridges; and (2) there is no backtracking on bridges (once you begin to walk on a bridge you must cross to the other side).  There was no requirement that you end your walk where you started it.  Such a walk, if it exists, is now called an Eulerian path.</p>
 
 <p>Euler not only solved the puzzle (the answer is <q>no</q>), but also, being a mathematician, provided a method by which one could very quickly tell whether such a walk was possible for any number of bridges and any number of land masses.  Thus, graph theory was born and Euler provided its first theorem.  But why did Euler choose this particular puzzle with which to launch this new field?  Scratching below the surface in a way eerily similar to the work Robert Langdon regularly did in <em>The Da Vinci Code</em>, we find that his choice was motivated by the desire to offer a tribute to the number <m>8</m>.</p>
 
@@ -232,10 +232,10 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
                 </image>
             </figure>
 
-<p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m>, that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" autoname="yes" />.  Check that now a path traversing each bridge exactly once is possible. </p>
+<p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m> that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" autoname="yes" />.  Check that now a path traversing each bridge exactly once is possible. </p>
  
 <p>The power and versatility of <m>8</m> displayed in the Bridges of K&#xf6;nigsberg puzzle has been captured in song that can still be heard today, ringing in the great halls of Basle during Octoberfest, as long as you are drinking with this author:</p>
-<poem>
+<p><poem>
         <stanza>
             <line>Oh bridges, oh bridges, you puzzle me so</line>
             <line>I cross one and cross two, which way do I go</line>
@@ -249,7 +249,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
             <line>but what choice do I have with bridges seven?</line>
 	</stanza>
         <stanza>
-            <line>Oh Savior, Oh Savior, I think I've a plan</line>
+            <line>Oh Euler, Oh Euler, I think I've a plan</line>
             <line>if you could please plop down just one other span</line>
             <line>Plop it down here or there, and you'll hear me cry</line>
             <line><q>I cross all <m>8</m> bridges while keeping me dry!</q></line>
@@ -261,6 +261,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
             <line>in an effort to celebrate big number <m>8</m>!</line>
 	</stanza>
                     </poem>
+                </p>
 
 </paragraphs>
 
@@ -284,8 +285,8 @@ For instance, I know the set of vowels <m>\{A, E, I, O, U, Y\}</m> and the set o
               <!-- -->
                 <row><cell>MPH:</cell><cell> Ok, let's see...  <m>A</m> stand over there with Tuesday.  Thank you! </cell></row>
                 <row><cell></cell><cell> Now, <m>E</m>, next to Thursday, please. <m>I</m>, with Monday... </cell></row>
-                <row><cell><m>O</m>:</cell><cell> Can I be with Saturday?</cell></row>
-                <row><cell>MPH:</cell><cell> Sure, thanks.  Now, how about <m>U</m> with Friday...</cell></row>
+                <row><cell><m>Y</m>:</cell><cell> How about <m>O</m> with Saturday?</cell></row>
+                <row><cell>MPH:</cell><cell> Fine by me... thanks. Ok... now, how about <m>U</m> with Friday.</cell></row>
 
                 <row><cell><m>Y</m>:</cell><cell> Great!</cell></row>
 
@@ -360,7 +361,7 @@ Here's an even more astonishing example.  A little known French mathematician na
 </tabular>
 </table>
 
-<p>The array has one row for each natural number and one column for each natural number, and every entry in the array is 3.  (If I may be frank, Vivelatrois exhibited an unhealthy number obsession, one that remains unmatched to this day.)  To his dismay, Vivelatrois discovered that the total number of 3s in this array is no larger than the set <m>\mathbb{N}</m>.  
+<p>The array has one row for each natural number and one column for each natural number, and every entry in the array is 3.  (If I may be frank, Vivelatrois exhibited an unhealthy number obsession.)  To his dismay, Vivelatrois discovered that the total number of 3s in this array is no larger than the set <m>\mathbb{N}</m>.  
 Can you find a way to pair up each 3 in this array with its own natural number?   There is a way! </p>
 
 <p>In light of such examples, numbers began gathering in coffee houses around central Europe to listen to Chopin Mazurkas and to try assembling themselves into sets larger than <m>\mathbb{N}</m>.  Alas, they all suffered the fate of Vivelatrois' array of 3s. </p> 
@@ -387,10 +388,10 @@ Can you find a way to pair up each 3 in this array with its own natural number? 
 
 <p>Cantor argued that this couldn't possibly be a complete pairing of the two sets by demonstrating that there must be some element in <m>\mathbb{S}</m> that is not in this list.  We construct a Great <m>8</m> sequence, let's call it <m>x</m>, by first considering the <q>diagonal</q> entries in this listing, as highlighted.  These diagonal entries themselves determine a Great <m>8</m> sequence (which begins <m>8</m>, <m>8</m>, G, G, <m>8, \ldots</m>).  </p>
 
-<p>We then form the missing sequence <m>x</m> by assigning at each position the opposite value to the one at the corresponding position of the diagonal sequence.  Thus, the sequence <m>x</m> begins G, G, <m>8</m>, <m>8</m>, G, ... .     
+<p>We then form the sequence <m>x</m> by assigning at each position the opposite value to the one at the corresponding position of the diagonal sequence.  Thus, the sequence <m>x</m> begins G, G, <m>8</m>, <m>8</m>, G, ... .     
 This Great <m>8</m> sequence will be different from every sequence in the list.  Indeed, <m>x</m> is different than the first sequence in the list because their first entries will be different, and <m>x</m> is different from the second sequence in the list because their second entries differ.  In particular, <m>x</m> will differ from the <m>n</m>th sequence in the list because their <m>n</m>th terms will differ.  We are forced to conclude that no pairing of <m>\mathbb{N}</m> and <m>\mathbb{S}</m> is possible. </p> 
 
-<p>What this means, as Cantor realized, is that while both sets are infinite, the set <m>\mathbb{S}</m> is larger.    Thus did <m>8</m> and Cantor introduce us to different sizes of infinity.   Their work led David Hilbert to write in his 1926 paper <em>Uber das Unendliche</em> <xref ref="biblio-hilbert" />,  <q>Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben konnen.</q>  My translation reads: <q>No one shall expel us from the paradise that Cantor and <m>8</m> have created.</q></p>
+<p>What this means, as Cantor realized, is that while both sets are infinite, the set <m>\mathbb{S}</m> is larger.    Thus did <m>8</m> and Cantor introduce us to different sizes of infinity, prompting David Hilbert to write in his 1926 paper <em>Uber das Unendliche</em> <xref ref="biblio-hilbert" />,  <q>Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben konnen.</q>  My translation reads: <q>No one shall expel us from the paradise that Cantor and <m>8</m> have created.</q></p>
 
 </section>
  
@@ -456,7 +457,7 @@ H^2 = 8G\frac{\pi}{3}\rho - \frac{k}{a^2}.
 Here, <m>H</m> is the Hubble
 constant measuring the expansion rate of
 the universe; <m>k =
--1,0,</m> or <m>1</m> is the curvature constant (<m>k = -1</m> corresponds to hyperbolic geometry, <m>k=0</m> to Euclidean, and <m>k = +1</m> to elliptic);  <m>G</m> is Newton's gravitational constant; <m>a</m> is a scale factor; and <m>\pi/3</m> is just a constant (and practically 1).
+-1,0,</m> or <m>1</m> is the curvature constant (<m>k = -1</m> corresponds to hyperbolic geometry, <m>k=0</m> to Euclidean, and <m>k = +1</m> to elliptic);  <m>G</m> is Newton's gravitational constant; <m>a</m> is a scale factor; and <m>\pi/3</m> is practically just 1.
 Notice, please, the central role that <m>8</m> plays in this fundamental description of the universe on a global scale.</p>
 
 <!-- <p>Now is probably as good a time as any to tell you that the fate of
