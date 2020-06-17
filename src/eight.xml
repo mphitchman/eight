@@ -19,7 +19,7 @@
         \usetikzlibrary{arrows,matrix}-->
         </latex-image-preamble>
 </docinfo>
-   <article xml:id="index">
+   <article xml:id="eight">
     <title>The Story of 8</title>
     <frontmatter xml:id="frontmatter"><title>Abstract</title>
 	<titlepage>
@@ -536,7 +536,7 @@ classroom.  The other day my son, who is <m>8</m> more or less, was flossing his
 </section>
 
 <backmatter><title>References</title>
-<references><title>References</title>
+<references>
 		<biblio type="raw" xml:id="biblio-pi">Petr Beckmann, <title>A History of Pi</title>. <publisher>The Golem Press</publisher>, New York, 1971.
                 </biblio>
         <biblio type="raw" xml:id="biblio-Burke">Edmund Burke, <title>A Philosophical Inquiry into the Origin of Our Ideas of the Sublime and Beautiful</title>. 1757.
