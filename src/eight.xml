@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<mathbook>
+<pretext>
 <docinfo>
     <brandlogo source="images/8.jpg" />
 	<latex-preamble>
@@ -188,10 +188,10 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 <section xml:id="section-revolutionary-8">
 <title>Revolutionary 8</title>
 
-<paragraphs>
+
 <p>We turn our attention now to the scientific revolution.  While <m>8</m> entered this enlightened time admired by bunny lovers and chocolate aficionados with a penchant for gathering in groups of five, it had not yet joined the ranks of the truly great numbers.  But that was about to change, in large part due to its collaboration with two giants of the age: Isaac Newton and Leonhard Euler. </p>
 
-
+<paragraphs><title></title>
 <p>No one embodies the scientific revolution more than Sir Isaac Newton.  Newton was born on Christmas Day in 1642, two months after his father died.  He survived a premature birth and the plague, no small feat in mid 17th century England.  Indeed, in 1665 Cambridge colleges closed their doors due to an outbreak of plague.  Sent home, where he had no access to the internet, Newton experienced his <em>anni mirabilis</em>, 20 miraculous months of intense creativity during which he formulated the key ideas of all his major discoveries: gravitation, optics, and, central to our story today, the calculus.  </p>
 
 <p>In calculus one investigates change, typically of some process over smaller and smaller intervals.  As such, very small, nebulous positive quantities such as  <m>\Delta x</m> and <m>\Delta y</m> came to steal the spotlight from many larger numbers such as three.  How did <m>8</m> manage in this age of infinitesimals? By standing on the shoulders of many tiny numbers, as we shall see.  </p>
@@ -208,9 +208,9 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
 (As an aside, some etymologists believe the phrase <q>No, thanks.  I just ate</q> has its origin in this saying of Newton's: <q>No more! I'm up eight!</q>  This may explain why eight is one of the few numbers that is also a verb, phonetically.) </p>
 </paragraphs>
 
-<paragraphs>
+<paragraphs><title></title>
 <p>Leonhard Euler was a second giant of mathematical thought during the scientific revolution.  A native of Basle, Switzerland, Euler was born in 1707, twenty years before Newton's death.  He spent much of his working life in St. Petersburg and Berlin.  He generated an immense quantity of fundamental, ground breaking work in mathematics. </p>
-<p>Pertinent to our story, Euler is responsible for many common symbols used in mathematics to this day, including the symbols for the numbers <m>\pi</m> and <m>e</m>.  To honor <m>8</m>, which already had the strongest of symbols (as we shall see in <xref ref="section-modern-8" autoname="yes" />), Euler invented a new field of mathematics called graph theory.</p>
+<p>Pertinent to our story, Euler is responsible for many common symbols used in mathematics to this day, including the symbols for the numbers <m>\pi</m> and <m>e</m>.  To honor <m>8</m>, which already had the strongest of symbols (as we shall see in <xref ref="section-modern-8" text="type-global" />), Euler invented a new field of mathematics called graph theory.</p>
 
 
 
@@ -222,7 +222,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
             </figure>
 
 
-<p>Graph theory was born from the solution to a puzzle that came to Euler's attention in 1736.  In K&#xf6;nigsberg (now Kaliningrad, Russia) one found a picturesque scene on the Pregel River: seven bridges joining four different land masses, as pictured in <xref ref="figure-bridges" autoname="yes" />.  The puzzle that Euler answered was this:  Can one walk in K&#xf6;nigbserg in such a way as to traverse each bridge exactly once, following these rules:  (1) you can only access the islands by the bridges; and (2) there is no backtracking on bridges (once you begin to walk on a bridge you must cross to the other side).  There was no requirement that you end your walk where you started it.  Such a walk, if it exists, is now called an Eulerian path.</p>
+<p>Graph theory was born from the solution to a puzzle that came to Euler's attention in 1736.  In K&#xf6;nigsberg (now Kaliningrad, Russia) one found a picturesque scene on the Pregel River: seven bridges joining four different land masses, as pictured in <xref ref="figure-bridges" text="type-global" />.  The puzzle that Euler answered was this:  Can one walk in K&#xf6;nigbserg in such a way as to traverse each bridge exactly once, following these rules:  (1) you can only access the islands by the bridges; and (2) there is no backtracking on bridges (once you begin to walk on a bridge you must cross to the other side).  There was no requirement that you end your walk where you started it.  Such a walk, if it exists, is now called an Eulerian path.</p>
 
 <p>Euler not only solved the puzzle (the answer is <q>no</q>), but also, being a mathematician, provided a method by which one could very quickly tell whether such a walk was possible for any number of bridges and any number of land masses.  Thus, graph theory was born and Euler provided its first theorem.  But why did Euler choose this particular puzzle with which to launch this new field?  Scratching below the surface in a way eerily similar to the work Robert Langdon regularly did in <em>The Da Vinci Code</em>, we find that his choice was motivated by the desire to offer a tribute to the number <m>8</m>.</p>
 
@@ -235,7 +235,7 @@ Yes, <m>8</m> is a Fibonacci number, a feather in any number's cap. What separat
                 </image>
             </figure>
 
-<p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m> that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" autoname="yes" />.  Check that now a path traversing each bridge exactly once is possible. </p>
+<p>I invite the reader to check that if you were to add an eighth bridge such a walk becomes possible.  Such is the power of <m>8</m> that this eighth bridge may be added <em>anywhere</em>, connecting <em>any</em> two land masses, and wherever it is placed, an Eulerian path now exists!  Here, I've added an eighth bridge randomly to the scene in <xref ref="figure-bridges8" text="type-global" />.  Check that now a path traversing each bridge exactly once is possible. </p>
  
 <p>The power and versatility of <m>8</m> displayed in the Bridges of K&#xf6;nigsberg puzzle has been captured in song that can still be heard today, ringing in the great halls of Basle during Octoberfest, as long as you are drinking with this author:</p>
 <p><poem>
@@ -412,7 +412,7 @@ The 19th century also saw the development of topology, a rich field of study to 
 
 <p>But not all connected spaces are alike, and we can investigate this by considering cut points.  A <em>cut point</em> in a connected space is a point whose removal would make the remaining space disconnected; and a measure of an object's <em>resolve</em> is how many points (other than endpoints) one can remove without disconnecting the remaining space.  </p>
 
-<p>If you remove <em>any</em> such point from l, 2, 3, 5, or 7, you end up disconnecting the digit, as suggested in <xref ref="figure-numbersnip" autoname="yes" />.  With 0, 4, 6, and 9 one can find a point to snip that does not disconnect the space, but two snips will always disconnect these digits. Of the connected integers, <m>8</m> alone can survive two snips.  Yes, <m>8</m> is the most resolute of the integers, topologically.</p>
+<p>If you remove <em>any</em> such point from l, 2, 3, 5, or 7, you end up disconnecting the digit, as suggested in <xref ref="figure-numbersnip" text="type-global" />.  With 0, 4, 6, and 9 one can find a point to snip that does not disconnect the space, but two snips will always disconnect these digits. Of the connected integers, <m>8</m> alone can survive two snips.  Yes, <m>8</m> is the most resolute of the integers, topologically.</p>
 
 <figure xml:id="figure-numbersnip">
                 <caption><m>8</m>'s connectivity can survive two snips!</caption>
@@ -422,7 +422,7 @@ The 19th century also saw the development of topology, a rich field of study to 
 </figure>
 
 
-<p>Now let's bump this topology discussion up a dimension.   A <em>surface</em> is a space with the feature that every point in the space has a neighborhood around it that looks like a little circular patch of a sheet of paper, or a bicycle tube patch.  A few surfaces are pictured in <xref ref="figure-surfaces" autoname="yes" />: a sphere, a sphere with a handle (hoppity-hop!), a donut (bike tube!), and what we could call a four-holed donut (yummy!).</p>
+<p>Now let's bump this topology discussion up a dimension.   A <em>surface</em> is a space with the feature that every point in the space has a neighborhood around it that looks like a little circular patch of a sheet of paper, or a bicycle tube patch.  A few surfaces are pictured in <xref ref="figure-surfaces" text="type-global" />: a sphere, a sphere with a handle (hoppity-hop!), a donut (bike tube!), and what we could call a four-holed donut (yummy!).</p>
 
 <figure xml:id="figure-surfaces">
                 <caption>Some surfaces.</caption>
@@ -433,12 +433,12 @@ The 19th century also saw the development of topology, a rich field of study to 
 
 
 
-<p>In the 1860s mathematicians managed to completely classify the compact and connected surfaces. There are infinitely many different ones, but we have a complete list of them.  If you ran into a surface in a dark alley, it would be topologically equivalent to one of the surfaces on this well-known list.  In fact, the (infinite) family of orientable surfaces may be described as follows:  Each orientable surface is topolocially equivelent to a sphere with some number of handles attached to it. For instance, the donut is topologically the same as a sphere with one handle (which looks like the hoppity-hop in <xref ref="figure-surfaces" autoname="yes" />) because one can be gradually morphed to look like the other.  The four-holed donut is essentially a sphere with four handles.</p>
+<p>In the 1860s mathematicians managed to completely classify the compact and connected surfaces. There are infinitely many different ones, but we have a complete list of them.  If you ran into a surface in a dark alley, it would be topologically equivalent to one of the surfaces on this well-known list.  In fact, the (infinite) family of orientable surfaces may be described as follows:  Each orientable surface is topolocially equivelent to a sphere with some number of handles attached to it. For instance, the donut is topologically the same as a sphere with one handle (which looks like the hoppity-hop in <xref ref="figure-surfaces" text="type-global" />) because one can be gradually morphed to look like the other.  The four-holed donut is essentially a sphere with four handles.</p>
 
 <p>How are surfaces germane to the story of <m>8</m>?  It turns out each surface can be given exactly one of three types of geometric structures in which measurements are the same at every point in the space.  The three possibilities for geometry are Euclidean, elliptic and hyperbolic.
 We won't dive into the details here, though they are dear to this author's heart (and are explored in detail in <xref ref="biblio-hitch" />).  Rather, let us be content with stating this remarkable fact: <em>except for the sphere and the donut, all of the orientable surfaces adhere to hyperbolic geometry.</em>  </p>
   
-<p>This tells us that when you run into that surface in the dark alley, the probability is 1 that it adheres to hyperbolic geometry.  So, if you are a two-dimensional bug named Bormit, and you assume your universe adheres to hyperbolic geometry, and you also believe in an Occam's Razor sort of way that it must be the simplest of all worlds, which world would it be?    Interpreting <q>simplest</q> as <q>fewest number of handles</q>, Bormit's world would be the sphere with two handles. The author has taken the liberty of providing a spare rendition of this most magnificent of surfaces in <xref ref="figure-2holedtorus" autoname="yes" />.  Does it look like an homage to any particular number?</p>
+<p>This tells us that when you run into that surface in the dark alley, the probability is 1 that it adheres to hyperbolic geometry.  So, if you are a two-dimensional bug named Bormit, and you assume your universe adheres to hyperbolic geometry, and you also believe in an Occam's Razor sort of way that it must be the simplest of all worlds, which world would it be?    Interpreting <q>simplest</q> as <q>fewest number of handles</q>, Bormit's world would be the sphere with two handles. The author has taken the liberty of providing a spare rendition of this most magnificent of surfaces in <xref ref="figure-2holedtorus" text="type-global" />.  Does it look like an homage to any particular number?</p>
 
 <figure xml:id="figure-2holedtorus">
                 <caption>The best of all possible worlds for Bormit the 2-D bug.</caption>
@@ -561,4 +561,4 @@ classroom.  The other day my son, who is <m>8</m> more or less, was flossing his
 
 </article>
 
-</mathbook>
+</pretext>
