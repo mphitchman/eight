@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project ptx-version="2" source="src/eight.xml">
+<targets>
+    <target name="web" format="html" />
+    <!--<target name="rs" format="html" publication="publication-runestone.ptx" />-->
+    <target name="print" format="pdf" />
+</targets>
+</project>
