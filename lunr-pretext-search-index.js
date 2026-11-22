@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Front Matter",
   "number": "",
   "title": "Front Matter",
-  "body": "  Mike Hitchman Mathematics Department  Linfield University  McMinnville, Oregon, USA  mhitchm@linfield.edu  May 29, 2017, updated November, 2026  November, 2026       Great 8   Over the years, alert students have noticed that appears in my classes more often than chance would allow. Occasionally in such moments I am stirred to reflect aloud on the greatness of , after which I am regularly pressed as to why  is so great, upon which I routinely think, Isn't it clear? Alas, so many times has this scene unfolded that it has become apparent the story of needs retelling.  A portion of this story appeared in , and a printable version to match this full online story can be found at mphitchman.com\/eight\/eight.pdf .   "
+  "body": "  Mike Hitchman Mathematics Department  Linfield University  McMinnville, Oregon, USA  mhitchm@linfield.edu  May 29, 2017, updated November, 2026  November, 2026       Great 8   Over the years, alert students have noticed that appears in my classes more often than chance would allow. Occasionally in such moments I am stirred to reflect aloud on the greatness of , after which I am regularly pressed as to why  is so great, upon which I routinely think, Isn't it clear? Alas, so many times has this scene unfolded that it has become apparent the story of needs retelling.  A portion of this story appeared in and one can download a pdf version of this full Story of 8.   "
 },
 {
   "id": "section-introduction-to-8",
